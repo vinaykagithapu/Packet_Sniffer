@@ -1,18 +1,22 @@
 # Packet_Sniffer
-## >> Captures the data flowing through a Network Interface Card (NIC).
-## >> Filters the data flowing through a NIC.
-## >> Displays the interesting information such as :
-###        --> Login information (Username & Password).
-###        --> Visited Websites.
-###        --> Images etc,.
-
-
-# Requriments:
-# ------------
+### >> Captures the data flowing through a Network Interface Card (NIC).
+### >> Filters the data flowing through a NIC.
+### >> Displays the interesting information such as :
+#### >>      Login information (Username & Password).
+#### >>      Visited Websites.
+#### >>      Images etc,.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+#
+### "It Works for only Linux"
+#
+## Requriments:
 ```
 sudo apt-get install python
 sudo pip install scapy
 sudo pip install scapy_http
 ```
-
-
+#
+## Usage:
+```
+sudo python sniff_the_packet.py
+[ Ctrl+C ] To stop the sniffing
+```
